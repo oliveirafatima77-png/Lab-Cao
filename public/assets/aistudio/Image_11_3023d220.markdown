@@ -1,0 +1,225 @@
+---
+name: Latidos
+colors:
+  surface: '#fbf9f3'
+  surface-dim: '#dcdad4'
+  surface-bright: '#fbf9f3'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f5f3ed'
+  surface-container: '#f0eee8'
+  surface-container-high: '#eae8e2'
+  surface-container-highest: '#e4e2dd'
+  on-surface: '#1b1c18'
+  on-surface-variant: '#43474d'
+  inverse-surface: '#30312d'
+  inverse-on-surface: '#f3f1eb'
+  outline: '#74777e'
+  outline-variant: '#c3c6ce'
+  surface-tint: '#48607d'
+  primary: '#00152a'
+  on-primary: '#ffffff'
+  primary-container: '#0f2a44'
+  on-primary-container: '#7992b1'
+  inverse-primary: '#b0c9ea'
+  secondary: '#006a6a'
+  on-secondary: '#ffffff'
+  secondary-container: '#9ff1f0'
+  on-secondary-container: '#0b7070'
+  tertiary: '#2d0600'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#511100'
+  on-tertiary-container: '#ec663d'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#d1e4ff'
+  primary-fixed-dim: '#b0c9ea'
+  on-primary-fixed: '#001d36'
+  on-primary-fixed-variant: '#304864'
+  secondary-fixed: '#9ff1f0'
+  secondary-fixed-dim: '#83d4d4'
+  on-secondary-fixed: '#002020'
+  on-secondary-fixed-variant: '#004f50'
+  tertiary-fixed: '#ffdbd1'
+  tertiary-fixed-dim: '#ffb59f'
+  on-tertiary-fixed: '#3b0a00'
+  on-tertiary-fixed-variant: '#862200'
+  background: '#fbf9f3'
+  on-background: '#1b1c18'
+  surface-variant: '#e4e2dd'
+typography:
+  display-lg:
+    fontFamily: Newsreader
+    fontSize: 40px
+    fontWeight: '600'
+    lineHeight: 48px
+    letterSpacing: -0.02em
+  display-lg-mobile:
+    fontFamily: Newsreader
+    fontSize: 32px
+    fontWeight: '600'
+    lineHeight: 40px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Newsreader
+    fontSize: 30px
+    fontWeight: '600'
+    lineHeight: 38px
+  headline-lg-mobile:
+    fontFamily: Newsreader
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+  headline-md:
+    fontFamily: Newsreader
+    fontSize: 22px
+    fontWeight: '500'
+    lineHeight: 28px
+  headline-sm:
+    fontFamily: Newsreader
+    fontSize: 18px
+    fontWeight: '500'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '600'
+    lineHeight: 18px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-tablet: 1.5rem
+  gutter-desktop: 2rem
+  margin: 1rem
+  margin-tablet: 2rem
+  margin-desktop: 3rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+Este sistema de design foi concebido para uma aplicação de etologia canina e bem-estar animal, permitindo aos tutores catalogar, analisar e compreender o léxico vocal dos seus cães. A identidade visual equilibra o rigor de um caderno de campo científico com a profunda empatia da relação entre tutor e animal.
+
+A linguagem estética segue um modelo **Editorial Científico / Neotradicional Contemporâneo**:
+- **Clareza e sobriedade**: Superfícies límpidas que evocam papel de arquivo e cadernos de observação etológica, evitando ruído visual desnecessário.
+- **Autoridade empática**: Tipografia editorial clássica combinada com uma sans-serif técnica, transmitindo legitimidade científica sem frieza clínica.
+- **Objetividade funcional**: Indicadores de áudio e espectrogramas tratados como dados rigorosos, com hierarquias de informação explícitas e foco absoluto no som e no comportamento associado.
+
+## Colors
+O esquema cromático reproduz a estética de publicações ornitológicas e etológicas, privilegiando pigmentos naturais de alto contraste e legibilidade imediata:
+
+- **Fundo de Ecrã (Creme Principal)**: `#F6F4EE`. Proporciona uma base acolhedora e descansa a visão durante sessões prolongadas de análise de áudio.
+- **Superfícies & Contentores**: `#FFFFFF` para cartões interativos em primeiro plano; `#FAF8F3` para cartões secundários ou áreas de metadados. Delimitados sempre por contornos subtis em `#E5E0D5`.
+- **Azul-Marinho Primário (`#0F2A44`)**: Tom dominante para barras de navegação superior, botões de ação primária e cabeçalhos de secção.
+- **Verde-Azulado Etológico (`#1F7A7A`)**: Elementos relacionados com análise bioacústica, segmentos de forma de onda sonora (*waveform*), filtros ativos e confirmações de correspondência vocal.
+- **Ferrugem / Terracota (`#B9411B`)**: Cor de tração imediata reservada exclusivamente para gravação/captação sonora em direto, alertas comportamentais e estados de erro crítico.
+- **Tipografia & Legibilidade**:
+  - Texto principal em `#1A242F` (garante rácio de contraste superior a 10:1 sobre o fundo creme).
+  - Metadados, notas etológicas e carimbos de data/hora em `#4B5866` (contraste superior a 5.2:1 sobre o fundo creme).
+- **Regra de Acessibilidade Estrita**: A cor nunca é o único vetor semântico. Todos os estados de validação, gravação e alerta combinam a cor com um rótulo em texto ou ícone estrutural dedicado.
+
+## Typography
+A composição tipográfica cria uma cadência de publicação científica:
+- **Títulos (`Newsreader`)**: A serifa transitória confere solenidade e rigor analítico aos nomes de entradas no catálogo (ex.: *"Latido de Alerta Territorial"*, *"Murmúrio de Solicitação"*). Aplicada com moderação em pesos 500 e 600.
+- **Corpo e Interface (`Plus Jakarta Sans`)**: Desenhada para ecrãs digitais, garante máxima legibilidade na leitura de hipóteses comportamentais, medições de frequência sonora (Hz) e rótulos de navegação.
+- **Números e Valores Acústicos**: Metadados temporais (ex.: `00:03.42`) e contadores de frequência recorrem preferencialmente a carateres com alinhamento tabular (`font-variant-numeric: tabular-nums`).
+
+## Layout & Spacing
+O desenho espacial assenta numa grelha fluida contida, favorecendo o foco na audição e catalogação:
+
+- **Grelha por Plataforma**:
+  - **Dispositivo Móvel (< 768px)**: 4 colunas fluidas, margens exteriores de 16px (`1rem`), caleiras de 16px. Todos os controlos de captação sonora situam-se na zona de alcance natural do polegar.
+  - **Tablet (768px - 1024px)**: 8 colunas, margens de 32px (`2rem`), caleiras de 24px (`1.5rem`). Permite visualização lado a lado: lista de ficheiros de áudio à esquerda e painel de análise bioacústica à direita.
+  - **Computador (> 1024px)**: 12 colunas, largura máxima centrada de `1200px` para prevenir linhas de leitura excessivamente longas, margens de 48px (`3rem`).
+- **Ritmo Vertical**: Múltiplos estritos de 4px e 8px. As margens entre cartões adjacentes utilizam `space-md` (16px), enquanto transições entre secções de contexto etológico utilizam `space-xl` (40px).
+
+## Elevation & Depth
+O sistema de design descarta sombras pronunciadas ou efeitos difusos saturados, optando por **camadas tonais limpas e contornos de baixa opacidade**:
+
+1. **Plano de Base**: A tela em `#F6F4EE` atua como suporte passivo.
+2. **Superfícies de Conteúdo**: Os cartões e painéis analíticos são elevados por distinção cromática (`#FFFFFF` ou `#FAF8F3`) e uma borda de 1px em tom `#E5E0D5`.
+3. **Cartão Ativo / Em Reprodução**: Adiciona uma borda reforçada de 1.5px em tom `#1F7A7A` ou `#0F2A44`, sem introduzir relevo artificial.
+4. **Camada Flutuante (Diálogos e Menus de Contexto)**: Recorre a uma sombra ambiente difusa com tonalidade marinho (`rgba(15, 42, 68, 0.08)`) com raio de 16px e desvio vertical de 4px, combinada com a borda estrutural em `#E5E0D5`.
+5. **Botão Flutuante de Captação**: Quando fixo ao ecrã, recebe uma ligeira sombra suave (`rgba(185, 65, 27, 0.22)`) para o separar nitidamente da lista de gravações sem perder o caráter sóbrio.
+
+## Shapes
+A identidade morfológica adota cantos arredondados contidos e estritos a **8px** (`border-radius: 8px`), correspondente ao nível de arredondamento 2 (`rounded-md` / `rounded-lg` dependendo da biblioteca base).
+
+- **Cartões, campos de texto e painéis**: Arredondamento exato de 8px com contorno contínuo de 1px (`#E5E0D5`).
+- **Botões e chips de estado**: Mantêm os cantos estruturais de 8px, preservando a coerência com as fichas de registo etológico e afastando-se do aspeto excessivamente lúdico dos botões em formato de pílula circular.
+- **Exceção única para o comando de captação central**: O botão principal de início/paragem de gravação pode apresentar-se em círculo perfeito para obedecer às convenções universais de captação de som.
+
+## Components
+
+### 1. Botões de Ação
+- **Dimensão Mínima de Toque**: Todos os botões possuem no mínimo 48px de altura e 48px de largura útil.
+- **Ação Primária**: Fundo `#0F2A44`, texto `#FFFFFF` em `Plus Jakarta Sans` semi-negrito (`label-md`), cantos a 8px. No estado de foco ou pressão ativa, transita para `#1A3B5C`.
+- **Ação de Captação / Gravação Sonora**: Fundo `#B9411B`, ícone de microfone e rótulo explícito *"Iniciar Captação"*, texto `#FFFFFF`. Durante a gravação, o botão transforma-se num retângulo de paragem com aviso sonoro e visual ("A gravar: 00:12").
+- **Ação Secundária**: Superfície `#FFFFFF`, contorno de 1.5px em `#0F2A44`, texto `#0F2A44`.
+- **Ação Neutra / Terciária**: Fundo transparente, texto `#0F2A44` sublinhado ou acompanhado de ícone direcional, com área envolvente clicável garantida de 48px.
+
+### 2. Cartões de Registo Sonoro (*Fichas de Latido*)
+- **Estrutura**: Fundo `#FFFFFF`, raio de 8px, borda de 1px em `#E5E0D5`, preenchimento interno de 16px (`space-md`).
+- **Conteúdo Integrado**:
+  - Cabeçalho com o título etológico em serifa `Newsreader` (`headline-sm`).
+  - Metadados: carimbo de data, hora e duração do ficheiro em `#4B5866`.
+  - Pré-visualização do espectrograma / onda sonora em `#1F7A7A` sobre barra de fundo `#FAF8F3`.
+  - Botão de reprodução acessível de 48px com ícone de reprodução e etiqueta acessível (`aria-label="Reproduzir latido de alerta territorial"`).
+
+### 3. Fichas de Contexto e Badges (*Chips*)
+- **Badges Etológicos (ex.: Emoção / Gatilho)**: Fundo `#FAF8F3`, borda de 1px `#E5E0D5`, texto `#1A242F` em `label-sm`.
+- **Badges de Sucesso / Correspondência Validada**: Fundo composto por `#1F7A7A` com 12% de opacidade, contorno `#1F7A7A` e texto `#1F7A7A`, acompanhado de ícone de verificação.
+- **Badges de Alerta / Gatilho Crítico**: Fundo composto por `#B9411B` com 10% de opacidade, contorno `#B9411B` e texto `#B9411B`, acompanhado de ícone de aviso.
+
+### 4. Campos de Introdução de Dados (Inputs)
+- **Estrutura**: Altura de 48px, fundo `#FFFFFF`, borda de 1px `#E5E0D5`, raio de 8px, texto em `#1A242F`.
+- **Rótulo Superior**: Visível permanentemente acima do campo (sem nunca depender exclusivamente de texto de exemplo/placeholder), tamanho `label-md` em `#1A242F`.
+- **Estado de Foco**: Contorno reforçado de 2px em tom `#0F2A44` com anel exterior de acessibilidade visível.
+- **Mensagens de Ajuda ou Erro**: Texto explícito em 12px situado imediatamente abaixo do campo. Em caso de erro, texto a `#B9411B` acompanhado do ícone de aviso correspondente.
+
+### 5. Caixas de Seleção e Botões de Opção (*Checkboxes* & *Radio Buttons*)
+- Caixa de toque mínima de 48x48px com elemento visual centralizado de 20x20px.
+- Estado não selecionado: fundo `#FFFFFF`, borda de 1.5px `#4B5866`.
+- Estado selecionado: preenchimento `#0F2A44` com indicador branco de contraste absoluto.
+
+### 6. Componentes Específicos do Produto
+- **Reprodutor de Espectrograma e Áudio**: Controlo com forma de onda sonora gerada a `#1F7A7A` com cursor de reprodução a `#0F2A44`. Permite abrandar a velocidade de reprodução (0.5x, 0.75x) para observação pormenorizada de modulação acústica.
+- **Painel de Hipótese Comportamental**: Cartão destacado com fundo `#FAF8F3`, contorno `#E5E0D5` e barra lateral esquerda de 4px em `#1F7A7A`, sugerindo orientações científicas sobre a causa provável do latido e conselhos de maneio em língua portuguesa de Portugal.

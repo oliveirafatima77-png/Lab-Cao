@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-canvas: #F6F4EE;
+    --bg-surface: #FFFFFF;
+    --bg-surface-secondary: #FAF8F3;
+    --border-subtle: #E5E0D5;
+    --navy-primary: #0F2A44;
+    --navy-hover: #1A3B5C;
+    --teal-ethology: #1F7A7A;
+    --terracotta-alert: #B9411B;
+    --ink-primary: #1A242F;
+    --ink-secondary: #4B5866;
+  }
+
+  html {
+    background-color: var(--bg-canvas);
+    color: var(--ink-primary);
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--bg-canvas);
+    color: var(--ink-primary);
+    margin: 0;
+    min-height: 100vh;
+  }
+
+  *:focus-visible {
+    outline: 2px solid var(--navy-primary);
+    outline-offset: 2px;
+  }
+}
+
+.font-editorial {
+  font-family: 'Newsreader', Georgia, serif;
+}
+
+.font-sans-ui {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-acoustic {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

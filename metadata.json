@@ -1,0 +1,10 @@
+{
+  "name": "Remix Latidos",
+  "description": "Caderno de campo bioacústico e catálogo etológico para análise e compreensão das vocalizações caninas.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
